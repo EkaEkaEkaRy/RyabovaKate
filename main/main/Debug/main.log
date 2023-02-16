@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: float __thiscall circle::square(void)" (?square@circle@@QAEMXZ) в функции _main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall circle::triangle_around(float,float,float)" (?triangle_around@circle@@QAE_NMMM@Z) в функции _main.
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall circle::triangle_in(float,float,float)" (?triangle_in@circle@@QAE_NMMM@Z) в функции _main.
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\main\Debug\main.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
