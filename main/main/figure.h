@@ -34,11 +34,11 @@ public:
     }
     bool is_prug()
     {
-        return a == c && b == e && a * a + e * e == d1 * d1;
+        return a == c && b == e && d1 == d2;
     }
     bool is_square()
     {
-        return a == b == c == e && a * a + e * e == d1 * d1;
+        return a == b == c == e && d1 == d2;
     }
     bool is_romb()
     {
