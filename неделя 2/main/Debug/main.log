@@ -10,30 +10,4 @@ C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(19,17
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(20,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(21,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(22,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(41,26): warning C4805: ==: небезопасное смешение типа "bool" и типа "float" в операции
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(41,31): warning C4805: ==: небезопасное смешение типа "bool" и типа "float" в операции
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(45,26): warning C4805: ==: небезопасное смешение типа "bool" и типа "float" в операции
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(45,31): warning C4805: ==: небезопасное смешение типа "bool" и типа "float" в операции
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.h(53,62): warning C4806: ==: небезопасная операция: значение типа "bool", приведенное к типу "int", не может равняться данной константе
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,25): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,22): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,111): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,108): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,105): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,115): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,112): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,109): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,138): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,135): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,132): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
   main.vcxproj -> C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\Debug\main.exe

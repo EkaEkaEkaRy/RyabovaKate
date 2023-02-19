@@ -38,19 +38,20 @@ public:
     }
     bool is_square()
     {
-        return a == b == c == e && d1 == d2;
+        return a == b && c == e && b == c && d1 == d2;
     }
     bool is_romb()
     {
-        return a == b == c == e;
+        return a == b && c == e && b == c;
     }
     bool is_in_circle()
     {
-        float f1 = (a * a + b * b + d2 * d2) / (2 * a * b);
-        float f2 = (c * c + b * b + d1 * d1) / (2 * c * b);
-        float f3 = (c * c + e * e + d2 * d2) / (2 * c * e);
-        float f4 = (a * a + e * e + d1 * d1) / (2 * a * e);
-        return acos(f1) + acos(f3) == acos(f2) + acos(f4) == 180;
+        float f1 = (a * a + b * b - d2 * d2) / (2 * a * b);
+        float f2 = (c * c + b * b - d1 * d1) / (2 * c * b);
+        float f3 = (c * c + e * e - d2 * d2) / (2 * c * e);
+        float f4 = (a * a + e * e - d1 * d1) / (2 * a * e);
+        std::cout << int((acos(f2) + acos(f4)) * 100) << " " << int((acos(f1) + acos(f3)) * 100) << " " << 314 << std::endl;
+        return int((acos(f1) + acos(f3))*100) == 314 && int((acos(f2) + acos(f4)) * 100) == 314;
     }
     bool is_out_circle()
     {
