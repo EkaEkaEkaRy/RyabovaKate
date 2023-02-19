@@ -50,7 +50,6 @@ public:
         float f2 = (c * c + b * b - d1 * d1) / (2 * c * b);
         float f3 = (c * c + e * e - d2 * d2) / (2 * c * e);
         float f4 = (a * a + e * e - d1 * d1) / (2 * a * e);
-        std::cout << int((acos(f2) + acos(f4)) * 100) << " " << int((acos(f1) + acos(f3)) * 100) << " " << 314 << std::endl;
         return int((acos(f1) + acos(f3))*100) == 314 && int((acos(f2) + acos(f4)) * 100) == 314;
     }
     bool is_out_circle()
