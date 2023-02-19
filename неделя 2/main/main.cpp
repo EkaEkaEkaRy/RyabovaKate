@@ -41,7 +41,7 @@ public:
 int main() {
     setlocale(LC_ALL, "Russian");
     
-    /*
+    
     // задание 1
     Triangle mas[3];
     double a, b, c;
@@ -91,7 +91,7 @@ int main() {
     cout << "Введите радиус r, координаты x, y для проверки пересечения окружности с окружностью 3 через пробел: " << endl;
     cin >> a >> b >> c;
     cout << "Окружность 3 пересекается с введенной окружностью: " << third.check_circle(a, b, c) << endl;
-    */
+    
 
     // задание 3
     float x1, x2, x3, x4, y1, y2, y3, y4;
