@@ -1,9 +1,23 @@
-﻿#include "circle.h";
+﻿#include <iostream>
+#include <cmath>
+#include "circle.h";
+circle::circle(float r, float x, float y)
+{
+    radius = r;
+    x_center = x;
+    y_center = y;
+}
 void circle::set_circle(float r, float x, float y)
 {
     radius = r;
     x_center = x;
     y_center = y;
+}
+void circle::show()
+{
+    std::cout << "радиус: " << radius << std::endl;
+    std::cout << "координата x: " << x_center << std::endl;
+    std::cout << "координата y: " << y_center << std::endl;
 }
 float circle::square()
 {
