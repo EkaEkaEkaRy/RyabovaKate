@@ -1,39 +1,29 @@
-﻿  circle.cpp
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\circle.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\circle.cpp(24,26): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\circle.cpp(28,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\circle.cpp(33,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-  figure.cpp
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(15,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(16,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(17,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(18,13): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(19,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\figure.cpp(20,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  main.cpp
+﻿  main.cpp
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(68,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(71,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(74,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,25): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(83,22): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,111): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,108): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(89,105): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,115): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,112): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(90,109): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,138): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,135): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(93,132): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(35,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(35,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(35,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(38,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(38,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(38,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(41,33): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(41,30): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(41,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(50,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(50,25): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(50,22): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(56,111): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(56,108): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(56,105): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(57,115): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(57,112): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(57,109): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(60,138): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(60,135): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\main.cpp(60,132): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Triangle.cpp
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\main\Triangle.cpp(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   Создание кода...
   main.vcxproj -> C:\Users\Katya R\Documents\GitHub\RyabovaKate\неделя 2\Debug\main.exe
