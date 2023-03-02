@@ -24,5 +24,10 @@ int main()
     cin >> p >> q;
     rational drob(p, q);
     drob.show();
-    return 0;
+    cout << "Введите через пробел числитель a и знаменатель b: " << endl;
+    cin >> p >> q;
+    rational drob2(p, q);
+    rational t(1, 1);
+    t = operator-(drob, drob2);
+    t.show();
 }

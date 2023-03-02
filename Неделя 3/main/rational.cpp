@@ -32,7 +32,6 @@ int rational::fraction_reduction(int c, int a, int b)
 	{
 		if (c == a)
 		{
-			std::cout << "Дробь можно сократить " << std::endl;
 			return p;
 		}
 		return q;
@@ -64,4 +63,76 @@ void rational::set(int a1, int b1)
 void rational::show()
 {
 	std::cout << "Дробь: " << a << "/" << b << std::endl;
+}
+
+int rational::get_a()
+{
+	return a;
+}
+
+int rational::get_b()
+{
+	return b;
+}
+
+rational operator+ (rational m1, rational m2)
+{
+	rational dr(m1.get_a() * m2.get_b() + m2.get_a() * m1.get_b(), m1.get_b() * m2.get_b());
+	return dr;
+}
+
+rational rational::operator-(rational& m1, rational& m2)
+{
+	rational dr(m1.a * m2.b - m2.a * m1.b, m1.b * m2.b);
+	return dr;
+}
+
+rational operator++ (rational m1)
+{
+	rational dr(m1.get_a() + m1.get_b(), m1.get_b());
+	return dr;
+}
+
+bool operator== (rational m1, rational m2)
+{
+	if (m1.get_a() == m2.get_a() && m1.get_b() == m2.get_b())
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+bool operator> (rational m1, rational m2)
+{
+	if (m1.get_a() * m2.get_b() > m2.get_a() * m1.get_b())
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+bool operator< (rational m1, rational m2)
+{
+	if (m1.get_a() * m2.get_b() < m2.get_a() * m1.get_b())
+	{
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+rational rational::operator=(rational m)
+{
+	a = m.a;
+	b = m.b;
+}
+
+rational::~rational()
+{
+
 }
