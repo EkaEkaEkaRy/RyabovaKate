@@ -75,7 +75,7 @@ rational rational::operator+(rational r) {
 	return result;
 }
 void rational::operator++() {
-	this->a + this->b;
+	this->a++;
 }
 bool rational::operator==(rational r) {
 	int x = this->a * r.b;
