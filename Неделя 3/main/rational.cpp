@@ -44,13 +44,12 @@ int rational::fraction_reduction(int c, int a, int b)
 		return b;
 	}
 }
+
+rational::rational() {}
+
 rational::rational(int a1, int b1)
 {
-	b = zero(b1);
-	a = a1 % b;
-	int x = a;
-	a = fraction_reduction(a, x, b);
-	b = fraction_reduction(b, x, b);
+	this->set(a1, b1);
 }
 void rational::set(int a1, int b1)
 {
@@ -65,74 +64,35 @@ void rational::show()
 	std::cout << "ִנמבü: " << a << "/" << b << std::endl;
 }
 
-int rational::get_a()
-{
-	return a;
-}
-
-int rational::get_b()
-{
-	return b;
-}
-
-rational operator+ (rational m1, rational m2)
-{
-	rational dr(m1.get_a() * m2.get_b() + m2.get_a() * m1.get_b(), m1.get_b() * m2.get_b());
-	return dr;
-}
-
-rational rational::operator-(rational& m1, rational& m2)
-{
-	rational dr(m1.a * m2.b - m2.a * m1.b, m1.b * m2.b);
-	return dr;
-}
-
-rational operator++ (rational m1)
-{
-	rational dr(m1.get_a() + m1.get_b(), m1.get_b());
-	return dr;
-}
-
-bool operator== (rational m1, rational m2)
-{
-	if (m1.get_a() == m2.get_a() && m1.get_b() == m2.get_b())
-	{
-		return true;
+rational rational::operator+(rational r) {
+	rational result;
+	if (r.b == this->b) {
+		result = rational(r.a + this->a, r.b);
 	}
 	else {
-		return false;
+		result = rational(r.a*this->b + r.b * this->a, r.b*this->b);
 	}
+	return result;
 }
-
-bool operator> (rational m1, rational m2)
-{
-	if (m1.get_a() * m2.get_b() > m2.get_a() * m1.get_b())
-	{
-		return true;
-	}
-	else {
-		return false;
-	}
+void rational::operator++() {
+	this->a + this->b;
 }
-
-bool operator< (rational m1, rational m2)
-{
-	if (m1.get_a() * m2.get_b() < m2.get_a() * m1.get_b())
-	{
-		return true;
-	}
-	else {
-		return false;
-	}
+bool rational::operator==(rational r) {
+	int x = this->a * r.b;
+	int y = r.a * this->b;
+	return x == y;
 }
-
-rational rational::operator=(rational m)
-{
-	a = m.a;
-	b = m.b;
+bool rational::operator> (rational r) {
+	int x = this->a * r.b;
+	int y = r.a * this->b;
+	return x > y;
 }
-
-rational::~rational()
-{
-
+bool rational::operator< (rational r) {
+	int x = this->a * r.b;
+	int y = r.a * this->b;
+	return x < y;
+}
+void rational::operator=(rational r) {
+	this->a = r.a;
+	this->b = r.b;
 }

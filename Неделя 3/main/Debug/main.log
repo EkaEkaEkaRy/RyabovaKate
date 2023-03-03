@@ -11,6 +11,6 @@ C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(2
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(28,10): warning C4244: =: преобразование "int" в "float", возможна потеря данных
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(35,11): warning C4244: return: преобразование "float" в "int", возможна потеря данных
 C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(37,10): warning C4244: return: преобразование "float" в "int", возможна потеря данных
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(78,20): error C2039: "-": не является членом "rational".
-C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.h(1): message : см. объявление "rational"
+C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\main\rational.cpp(78,10): warning C4552: "+": результат выражения не используется
   Создание кода...
+  main.vcxproj -> C:\Users\Katya R\Documents\GitHub\RyabovaKate\Неделя 3\Debug\main.exe

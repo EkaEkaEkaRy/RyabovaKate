@@ -2,12 +2,17 @@
 #include <cmath>
 #include "eq2.h";
 
+eq2::eq2() {}
 eq2::eq2(double a1, double b1, double c1) {
-    a = a1; b = b1; c = c1;
+    a = a1; 
+    b = b1; 
+    c = c1;
     D = b * b - 4 * a * c;
 }
 void eq2::set(double a1, double b1, double c1) {
-    a = a1; b = b1; c = c1;
+    a = a1; 
+    b = b1; 
+    c = c1;
     D = b * b - 4 * a * c;
 }
 double eq2::find_X() {
@@ -39,4 +44,19 @@ double eq2::find_X() {
 }
 double eq2::find_Y(double x1) {
     return a * x1 * x1 + b * x1 + c;
+}
+
+double eq2::getA() 
+{ 
+    return a; 
+}
+
+double eq2::getB() 
+{ 
+    return b; 
+}
+
+double eq2::getC() 
+{ 
+    return c; 
 }
