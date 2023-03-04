@@ -39,7 +39,7 @@ int main()
     exmp3.find_X();
     cout << endl << endl;
     
-    // задание 2
+    // задание 2 и 3
     cout << "Введите количество чисел: ";
     int n, p, q;
     cin >> n;
@@ -56,7 +56,7 @@ int main()
     }
     cout << endl;
 
-    // задание 3
+
     cout << "Суммы дробей: " << endl;
     for (int i = 0; i < n - 1; i++) (mas[i] + mas[i + 1]).show();
     cout << endl;
